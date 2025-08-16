@@ -77,9 +77,11 @@ export const Hero: React.FC<HeroProps> = ({
                 스마트 타겟팅과 실시간 분석으로 고객과의 연결을 강화하고 매출을 증대시킬 수 있습니다.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button variant="primary" size="lg">
-                  무료로 시작하기
-                </Button>
+                <a href="/app" className="inline-block">
+                  <Button variant="primary" size="lg">
+                    무료로 시작하기
+                  </Button>
+                </a>
                 <Button variant="ghost" size="lg">
                   데모 보기
                 </Button>
@@ -88,8 +90,8 @@ export const Hero: React.FC<HeroProps> = ({
             <div className="relative">
               <div className="relative z-10">
                 <img
-                  src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop"
-                  alt="Hero illustration"
+                  src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop"
+                  alt="AI 마케팅 플랫폼 일러스트레이션"
                   className="w-full h-auto rounded-[var(--radius-xl)] shadow-2xl"
                 />
               </div>
@@ -119,7 +121,7 @@ export const Hero: React.FC<HeroProps> = ({
             )}>
               <a href="/app" className="inline-block">
                 <Button variant="primary" size="lg">
-                  전단지 등록
+                  무료로 시작하기
                 </Button>
               </a>
               <Button variant="ghost" size="lg">
@@ -146,7 +148,7 @@ export const Hero: React.FC<HeroProps> = ({
               variant === 'centered' ? '' : 'md:text-left'
             )}>
               <div className="text-[var(--font-size-title4)] font-bold text-[var(--color-text)]">50,000+</div>
-              <div className="text-[var(--font-size-small)] text-[var(--color-text-secondary)]">생성된 전단지</div>
+              <div className="text-[var(--font-size-small)] text-[var(--color-text-secondary)]">성공한 캠페인</div>
             </div>
             <div className={cn(
               'text-center',

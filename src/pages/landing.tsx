@@ -29,7 +29,7 @@ export default function LandingPage() {
       <Hero 
         variant="split" 
         size="xl"
-        backgroundImage="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&h=800&fit=crop"
+        backgroundImage="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop"
         overlay
       />
 
@@ -52,7 +52,7 @@ export default function LandingPage() {
               </div>
               <CardTitle className="mb-4">직관적인 디자인</CardTitle>
               <CardDescription>
-                전문 디자이너가 제작한 템플릿으로 누구나 쉽게 아름다운 전단지를 만들 수 있습니다
+                전문 디자이너가 제작한 템플릿으로 누구나 쉽게 아름다운 마케팅 콘텐츠를 만들 수 있습니다
               </CardDescription>
             </Card>
 
@@ -62,7 +62,7 @@ export default function LandingPage() {
               </div>
               <CardTitle className="mb-4">모바일 최적화</CardTitle>
               <CardDescription>
-                모든 디바이스에서 완벽하게 표시되는 반응형 전단지로 고객 경험을 향상시킵니다
+                모든 디바이스에서 완벽하게 표시되는 반응형 콘텐츠로 고객 경험을 향상시킵니다
               </CardDescription>
             </Card>
 
@@ -72,7 +72,7 @@ export default function LandingPage() {
               </div>
               <CardTitle className="mb-4">실시간 분석</CardTitle>
               <CardDescription>
-                전단지 성과를 실시간으로 추적하고 고객 반응을 분석하여 마케팅 전략을 개선합니다
+                마케팅 성과를 실시간으로 추적하고 고객 반응을 분석하여 전략을 개선합니다
               </CardDescription>
             </Card>
           </div>
@@ -87,7 +87,7 @@ export default function LandingPage() {
               성공 사례
             </h2>
             <p className="text-[var(--font-size-large)] text-[var(--color-text-secondary)] max-w-2xl mx-auto">
-              이미 많은 비즈니스가 thisisflyers로 성공을 거두고 있습니다
+              이미 많은 비즈니스가 thisisflyers로 놀라운 성과를 거두고 있습니다
             </p>
           </div>
 
@@ -95,14 +95,14 @@ export default function LandingPage() {
             cards={[
               {
                 id: '1',
-                imageSrc: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop',
-                imageAlt: '피자집 성공 사례',
+                imageSrc: 'https://images.unsplash.com/photo-1559339352-11d3aa6c8268?w=400&h=300&fit=crop',
+                imageAlt: '로컬 비즈니스 성공 사례',
                 title: '맛있는 피자집',
                 description: '월 매출 30% 증가'
               },
               {
                 id: '2',
-                imageSrc: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=300&fit=crop',
+                imageSrc: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&h=300&fit=crop',
                 imageAlt: '카페 성공 사례',
                 title: '아늑한 카페',
                 description: '고객 방문률 50% 향상'
@@ -116,10 +116,10 @@ export default function LandingPage() {
               },
               {
                 id: '4',
-                imageSrc: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop',
-                imageAlt: '스테이크',
-                title: '립 스테이크',
-                description: '완벽하게 구운 고기'
+                imageSrc: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=300&fit=crop',
+                imageAlt: 'AI 마케팅 성공 사례',
+                title: 'AI 마케팅',
+                description: 'ROI 200% 향상'
               }
             ]}
             columns={4}
@@ -132,10 +132,10 @@ export default function LandingPage() {
       <section className="py-24 bg-gradient-to-r from-[var(--color-primary-brand)] to-[var(--color-primary-blue)]">
         <div className="max-w-[var(--page-max-width)] mx-auto px-[var(--page-padding)] text-center">
           <h2 className="text-[var(--font-size-title5)] font-bold text-white mb-6">
-            AI 마케팅의 미래를 경험하세요
+            지금 바로 시작하고 비즈니스를 성장시키세요
           </h2>
           <p className="text-[var(--font-size-large)] text-white/90 mb-8 max-w-2xl mx-auto">
-            thisisflyers와 함께 지역 비즈니스의 마케팅을 혁신하고 성장을 가속화하세요
+            thisisflyers와 함께 지역 비즈니스의 마케팅을 혁신하고 놀라운 성과를 경험해보세요
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/app" className="inline-block">
