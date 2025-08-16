@@ -1,0 +1,160 @@
+:root {
+  /* Colors - Primary */
+  --color-primary-brand: #5e6ad2;
+  --color-primary-blue: #4ea7fc;
+  --color-primary-red: #eb5757;
+  --color-primary-green: #4cb782;
+  --color-primary-orange: #fc7840;
+  --color-primary-yellow: #f2c94c;
+  --color-primary-indigo: #5e6ad2;
+
+  /* Colors - Neutral */
+  --color-neutral-white: #ffffff;
+  --color-neutral-black: #000000;
+  --color-background-primary: rgb(8, 9, 10);
+  --color-background-secondary: rgb(15, 16, 17);
+  --color-background-tertiary: rgb(20, 21, 22);
+  --color-surface-light: rgb(247, 248, 248);
+  --color-surface-medium: rgb(230, 230, 230);
+  --color-surface-dark: rgb(30, 30, 30);
+  --color-surface-darker: rgb(38, 38, 38);
+  
+  /* Enhanced Text Colors for Dark Pattern */
+  --color-text-primary: rgb(255, 255, 255);
+  --color-text-secondary: rgb(156, 163, 175);
+  --color-text-muted: rgb(107, 114, 128);
+  --color-text-disabled: rgb(75, 85, 99);
+  --color-text-inverse: rgb(8, 9, 10);
+  
+  /* Enhanced Border Colors */
+  --color-border-light: rgba(255, 255, 255, 0.08);
+  --color-border-medium: rgba(255, 255, 255, 0.12);
+  --color-border-dark: rgba(255, 255, 255, 0.16);
+  
+  /* Enhanced Surface Colors */
+  --color-surface-elevated: rgb(45, 47, 50);
+  --color-surface-hover: rgb(52, 54, 57);
+
+  /* Colors - Semantic */
+  --color-success-base: #4cb782;
+  --color-success-light: rgba(76, 183, 130, 0.15);
+  --color-success-dark: rgba(34, 54, 32, 0.5);
+  --color-warning-base: #f2c94c;
+  --color-warning-light: rgba(242, 201, 76, 0.15);
+  --color-error-base: #eb5757;
+  --color-error-light: rgba(235, 87, 87, 0.15);
+  --color-info-base: #4ea7fc;
+  --color-info-light: rgba(78, 167, 252, 0.15);
+
+  /* Spacing */
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-16: 64px;
+  --spacing-20: 80px;
+  --spacing-24: 96px;
+
+  /* Layout */
+  --header-height: 64px;
+  --page-padding: 24px;
+  --page-max-width: 1024px;
+  --prose-max-width: 624px;
+  --min-tap-size: 44px;
+
+  /* Border Radius */
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-3xl: 24px;
+  --radius-4xl: 32px;
+  --radius-full: 9999px;
+  --radius-circle: 50%;
+
+  /* Z-Index */
+  --z-hide: -1;
+  --z-base: 0;
+  --z-docked: 10;
+  --z-dropdown: 1000;
+  --z-sticky: 1100;
+  --z-banner: 1200;
+  --z-overlay: 1300;
+  --z-modal: 1400;
+  --z-popover: 1500;
+  --z-toast: 1700;
+  --z-tooltip: 1800;
+
+  /* Animations */
+  --duration-instant: 0s;
+  --duration-fast: 0.1s;
+  --duration-normal: 0.25s;
+  --duration-slow: 0.5s;
+  --easing-linear: linear;
+  --easing-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --easing-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  /* Focus */
+  --focus-color: #5e6ad2;
+  --focus-width: 2px;
+  --focus-offset: 2px;
+
+  /* Blur effects */
+  --blur-header: 20px;
+
+  /* Scrollbar */
+  --scrollbar-size: 6px;
+  --scrollbar-size-active: 10px;
+  --scrollbar-color: hsla(0,0%,100%,.1);
+  --scrollbar-color-hover: hsla(0,0%,100%,.2);
+  --scrollbar-color-active: hsla(0,0%,100%,.4);
+  --scrollbar-gap: 4px;
+
+  /* Font sizes for CSS variables */
+  --font-size-micro: 0.6875rem;
+  --font-size-mini: 0.75rem;
+  --font-size-small: 0.8125rem;
+  --font-size-regular: 0.9375rem;
+  --font-size-large: 1.125rem;
+  --font-size-title1: 1.0625rem;
+  --font-size-title2: 1.3125rem;
+  --font-size-title3: 1.5rem;
+  --font-size-title4: 2rem;
+  --font-size-title5: 2.5rem;
+  --font-size-title6: 3rem;
+  --font-size-title7: 3.5rem;
+  --font-size-title8: 4rem;
+  --font-size-title9: 4.5rem;
+}
+
+/* Dark theme (default) - Enhanced for better readability */
+:root {
+  --color-background: var(--color-background-primary);
+  --color-surface: var(--color-surface-darker);
+  --color-surface-medium: var(--color-surface-elevated);
+  --color-text: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted: var(--color-text-muted);
+  --color-border: var(--color-border-light);
+  --color-border-medium: var(--color-border-medium);
+}
+
+/* Light theme - Enhanced for better contrast */
+[data-theme="light"] {
+  --color-background: var(--color-surface-light);
+  --color-surface: var(--color-neutral-white);
+  --color-surface-medium: var(--color-surface-medium);
+  --color-text: rgb(17, 24, 39);
+  --color-text-secondary: rgb(75, 85, 99);
+  --color-text-muted: rgb(107, 114, 128);
+  --color-border: var(--color-border-dark);
+  --color-border-medium: rgba(0, 0, 0, 0.12);
+}
