@@ -1,12 +1,12 @@
 :root {
   /* Colors - Primary */
-  --color-primary-brand: #5e6ad2;
-  --color-primary-blue: #4ea7fc;
+  --color-primary-brand: #ffffff;
+  --color-primary-blue: #f8f9fa;
   --color-primary-red: #eb5757;
   --color-primary-green: #4cb782;
   --color-primary-orange: #fc7840;
   --color-primary-yellow: #f2c94c;
-  --color-primary-indigo: #5e6ad2;
+  --color-primary-indigo: #e9ecef;
 
   /* Colors - Neutral */
   --color-neutral-white: #ffffff;
@@ -103,7 +103,7 @@
   --easing-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
   /* Focus */
-  --focus-color: #5e6ad2;
+  --focus-color: #ffffff;
   --focus-width: 2px;
   --focus-offset: 2px;
 

@@ -23,7 +23,7 @@ export const Button: React.FC<ButtonProps> = ({
   const baseClasses = 'inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed';
   
   const variantClasses = {
-    primary: 'bg-[var(--color-primary-brand)] text-white border border-[var(--color-primary-brand)] hover:bg-[var(--color-primary-brand)]/90 focus:ring-[var(--color-primary-brand)]',
+    primary: 'bg-[var(--color-primary-brand)] text-[var(--color-text-inverse)] border border-[var(--color-primary-brand)] hover:bg-[var(--color-primary-brand)]/90 focus:ring-[var(--color-primary-brand)]',
     secondary: 'bg-[var(--color-surface-medium)] text-[var(--color-background-primary)] border border-[var(--color-surface-medium)] hover:bg-[var(--color-surface-medium)]/90 focus:ring-[var(--color-surface-medium)]',
     ghost: 'bg-transparent text-[var(--color-text-secondary)] border-0 hover:bg-[var(--color-surface-darker)] hover:text-[var(--color-text-primary)] focus:ring-[var(--color-primary-brand)]'
   };

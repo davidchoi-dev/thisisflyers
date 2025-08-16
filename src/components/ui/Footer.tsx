@@ -20,12 +20,12 @@ export const Footer: React.FC<FooterProps> = ({
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="flex items-center space-x-3">
               <div className="w-8 h-8 bg-[var(--color-primary-brand)] rounded-[var(--radius-md)] flex items-center justify-center">
-                <span className="text-white font-bold text-sm">1</span>
+                <span className="text-[var(--color-text-inverse)] font-bold text-sm">T</span>
               </div>
-              <span className="text-[var(--color-text)] font-semibold">1HPK</span>
+              <span className="text-[var(--color-text)] font-semibold">thisisflyers</span>
             </div>
             <div className="text-sm text-[var(--color-text-secondary)]">
-              © {currentYear} 1HPK. All rights reserved.
+              © {currentYear} thisisflyers. All rights reserved.
             </div>
           </div>
         </div>
@@ -43,15 +43,15 @@ export const Footer: React.FC<FooterProps> = ({
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-[var(--color-primary-brand)] rounded-[var(--radius-md)] flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">1</span>
+                  <span className="text-[var(--color-text-inverse)] font-bold text-xl">T</span>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-[var(--color-text)]">1HPK</h3>
-                  <p className="text-sm text-[var(--color-text-secondary)]">근거리 전단지 플랫폼</p>
+                  <h3 className="text-lg font-semibold text-[var(--color-text)]">thisisflyers</h3>
+                  <p className="text-sm text-[var(--color-text-secondary)]">AI 기반 디지털 마케팅 플랫폼</p>
                 </div>
               </div>
               <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed">
-                지역 비즈니스의 디지털 마케팅을 혁신하는 플랫폼입니다.
+                지역 비즈니스의 디지털 마케팅을 혁신하는 AI 플랫폼입니다.
               </p>
               <div className="flex space-x-4">
                 <Button variant="ghost" size="sm" className="p-2">
@@ -79,7 +79,7 @@ export const Footer: React.FC<FooterProps> = ({
               <ul className="space-y-2">
                 <li>
                   <a href="#" className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text)] transition-colors">
-                    전단지 제작
+                    마케팅 콘텐츠 제작
                   </a>
                 </li>
                 <li>
@@ -179,7 +179,7 @@ export const Footer: React.FC<FooterProps> = ({
           <div className="py-8 border-t border-[var(--color-border)]">
             <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
               <div className="text-sm text-[var(--color-text-secondary)]">
-                © {currentYear} 1HPK. All rights reserved.
+                © {currentYear} thisisflyers. All rights reserved.
               </div>
               <div className="flex space-x-6 text-sm text-[var(--color-text-secondary)]">
                 <a href="#" className="hover:text-[var(--color-text)] transition-colors">개인정보처리방침</a>
@@ -202,7 +202,7 @@ export const Footer: React.FC<FooterProps> = ({
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-[var(--color-primary-brand)] rounded-[var(--radius-md)] flex items-center justify-center">
-                <span className="text-white font-bold text-xl">T</span>
+                <span className="text-[var(--color-text-inverse)] font-bold text-xl">T</span>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-[var(--color-text)]">thisisflyers</h3>
@@ -245,7 +245,7 @@ export const Footer: React.FC<FooterProps> = ({
           <div className="space-y-4">
             <h4 className="text-sm font-semibold text-[var(--color-text)] uppercase tracking-wider">연락처</h4>
             <div className="space-y-2 text-sm text-[var(--color-text-secondary)]">
-              <p>📧 hello@1hpk.com</p>
+              <p>📧 hello@thisisflyers.com</p>
               <p>📞 02-1234-5678</p>
               <p>📍 서울특별시 강남구</p>
             </div>
@@ -266,7 +266,7 @@ export const Footer: React.FC<FooterProps> = ({
         {/* Bottom */}
         <div className="mt-8 pt-8 border-t border-[var(--color-border)] text-center">
           <p className="text-sm text-[var(--color-text-secondary)]">
-            © {currentYear} 1HPK. All rights reserved.
+            © {currentYear} thisisflyers. All rights reserved.
           </p>
         </div>
       </div>

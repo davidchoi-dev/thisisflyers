@@ -63,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div className="hidden md:flex items-center space-x-4">
             <a href="/app" className="inline-block">
               <Button variant="ghost" size="sm">
-                전단지 등록
+                마케팅 시작
               </Button>
             </a>
             <a href="/app" className="inline-block">
